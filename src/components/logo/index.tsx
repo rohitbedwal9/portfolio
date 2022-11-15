@@ -1,8 +1,9 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export const Logo: React.FC = () => {
   return (
-    <Image src="/icons/nextjs-icon.svg" alt="nextjs" width="96" height="58" />
+    <Link href="/"><Image src="/icons/logo.png" alt="Rohit" width="130" height="60" /></Link>
   );
 };

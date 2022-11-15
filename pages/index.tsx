@@ -1,11 +1,11 @@
 import React from "react";
 
-import { Container, Header, Main, Footer, Cards } from "@components";
+import { Container, Navbar, Main, Footer, Cards } from "@components";
 
 const Home: React.FC = () => {
   return (
     <Container>
-      <Header />
+      <Navbar />
       <Main />
       <Cards />
       <Footer />
