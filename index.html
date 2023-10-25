@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <main class="main">
+        <nav id="desktop-nav">
+            <div class="logo">Rohit Singh</div>
+            <ul class="nav-items">
+                <li><a href="#about" class="">About</a></li>
+                <li><a href="#education" class="">Education</a></li>
+                <li><a href="#skills" class="">Skills</a></li>
+                <li><a href="#projects" class="">Projects</a></li>
+                <li><a href="#contact" class="">Contact</a></li>
+            </ul>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Rohit Singh</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="menu-items">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+                    <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="sections">
+            <section class="profile" id="#">
+                <div class="profile-info">
+                    <h1 class="intro">Hey There</h1>
+                    <h1 class="name">I'm Rohit <span class="sub-text">Bedwal</span></h1>
+                    <p class="designation">I am a <span class="sub-text">Frontend Web Developer</span></p>
+                    <div class="btn-container">
+                        <button class="btn btn1 linkedin-btn"
+                            onclick="location.href='https://www.linkedin.com/in/rohitbedwal9'">LinkedIn</button>
+                        <button class="btn btn2" onclick="location.href='./#about'">  About Me  </button>
+                    </div>
+                </div>
+                <div class="pic-container"><img src="/assets/prof-emogi.png" alt="profile" class="profile-img"></div>
+            </section>
+            <section class="section" id="about">
+                <div class="section-header">
+                    <p class="upper-text">Get to Know More</p>
+                    <h1 class="">About Me</h1>
+                </div>
+                <div class="sub-container">
+                    <div class="pic-container">
+                        <img src="/assets/prof-org.png" alt="profile" class="profile-img2">
+                    </div>
+                    <div class="content-container">
+                        <h2>I'm Rohit </h2>
+                        <h4>Frontend Web Developer</h4>
+                        <p>I have completed my Bachelors in Computer Application from Doon Group of Institutions,
+                            Rishikesh. Currently I am pursuing my Masters in Computer Applications from Graphic Era Hill
+                            University, Dehradun. I am very passionate about improving my coding skills & developing
+                            websites. I build WebApps and Websites using MERN Stack. Working for myself to improve my
+                            skills.</p>
+                        <p><span class="sub-text">Email:</span> rohitbedwal9@gmail.com</p>
+                        <div class="btn-container">
+                            <button class="btn btn1" onclick="window.open('/assets/Rohit_Resume.pdf')">Resume</button>
+                            <button class="btn btn2" onclick="location.href='./#contact'">Contact</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="education">
+                <div class="section-header">
+                    <h1 class="">My Education</h1>
+                    <p class="">Education Is Not The Learning Of Facts, But The Training Of The Mind To Think.</p>
+                </div>
+                <div class="rest">
+                    <div class="edu-container">
+                        <div class="img-container c1"></div>
+                        <div class="edu-content">
+                            <p class="degree">Master of Computer Application</p>
+                            <p class="college">Graphic Era Hill University, Dehradun</p>
+                            <p class="year current">2022-2024 | Pursuing</p>
+                        </div>
+                    </div>
+                    <div class="edu-container">
+                        <div class="img-container c2"></div>
+                        <div class="edu-content">
+                            <p class="degree">Bachelor of Computer Application</p>
+                            <p class="college">Doon Group of Institutions, Rishikesh</p>
+                            <p class="year">2019-2022 | Completed</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="skills">
+                <div class="section-header">
+                    <h1 class="">My Skills</h1>
+                    <p>Skills are the most important thing to have in this competitive world.</p>
+                </div>
+                <div class="skill-container">
+                    <div class="skill"><img src="/assets/skills/c-logo.png" alt="c" class="skill-img c">C</div>
+                    <div class="skill cpp"><img src="/assets/skills/cpp-logo.png" alt="cpp" class="skill-img">C++</div>
+                    <div class="skill html"><img src="/assets/skills/html5-logo.png" alt="html" class="skill-img">HTML5
+                    </div>
+                    <div class="skill css"><img src="/assets/skills/css3-logo.png" alt="css" class="skill-img">CSS3
+                    </div>
+                    <div class="skill javascript"><img src="/assets/skills/javascript-logo.png" alt="javascript"
+                            class="skill-img">JavaScript</div>
+                    <div class="skill typescript"><img src="/assets/skills/typescript-logo.png" alt="typescript"
+                            class="skill-img">TypeScript</div>
+                    <div class="skill reactjs"><img src="/assets/skills/reactjs-logo.png" alt="reactjs"
+                            class="skill-img">
+                        ReactJs</div>
+                    <div class="skill tailwindcss"><img src="/assets/skills/tailwindcss-logo.png" alt="tailwindcss"
+                            class="skill-img">TailwindCss</div>
+                    <div class="skill materialui"><img src="/assets/skills/materialui-logo.svg" alt="materialui"
+                            class="skill-img">MaterialUI</div>
+                    <div class="skill bootstrap"><img src="/assets/skills/bootstrap-logo.svg" alt="bootstrap"
+                            class="skill-img">Bootstrap</div>
+                    <div class="skill github"><img src="/assets/skills/github-logo.png" alt="github"
+                            class="skill-img">GitHub</div>
+                    <div class="skill oracle"><img src="/assets/skills/oracle-logo.svg" alt="oracle"
+                            class="skill-img">Oracle</div>
+                    <div class="skill mysql"><img src="/assets/skills/mysql-logo.png" alt="mysql"
+                            class="skill-img">MySQL</div>
+                    <div class="skill php"><img src="/assets/skills/php-logo.png" alt="php" class="skill-img">PHP</div>
+                    <div class="skill canva"><img src="/assets/skills/canva-logo.svg" alt="canva"
+                            class="skill-img">Canva</div>
+                    <div class="skill python"><img src="/assets/skills/python-logo.png" alt="python"
+                            class="skill-img">Python</div>
+                </div>
+            </section>
+            <section class="section" id="projects">
+                <div class="section-header">
+                    <h1 class="">My Projects</h1>
+                    <p>Projects are the best way to learn and implement your skills.</p>
+                </div>
+                <div class="project-container">
+                    <div class="project">
+                        <div class="project-cart">
+                            <div><img src="/assets/Projects/paryatak-preview.jpeg" alt="paryatak" class="project-img">
+                            </div>
+                            <div class="cart">
+                                <div class="project-content">
+                                    <h3>Paryatak</h3>
+                                    <p>Paryatak is a travel website which provides information about the places to visit
+                                        in
+                                        Uttarakhand. It also provides information about the hotels and restaurants in
+                                        Uttarakhand.</p>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://prayatak.vercel.com" target="_blank" rel="noopener" alt="link"
+                                        class="btn btn1">Website</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project ">
+                        <div class="project-cart ">
+                            <div><img src="/assets/Projects/portfolio-preview.jpeg" alt="portfolio" class="project-img">
+                            </div>
+                            <div class="cart">
+                                <div class="project-content">
+                                    <h3>Portfolio</h3>
+                                    <p>Portfolio is a personal website which provides information about the person. It
+                                        also
+                                        provides information about the skills and projects of the person.</p>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://rohitbedwal9.vercel.app" target="_blank" rel="noopener" alt="link"
+                                        class="btn btn1">Website</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project ">
+                        <div class="project-cart">
+                            <div><img src="/assets/Projects/todo-preview.jpeg" alt="todoapp" class="project-img"></div>
+                            <div class="cart">
+                                <div class="project-content">
+                                    <h3>Todo App</h3>
+                                    <p>Todo App is a web application which is used to manage the tasks. It also provides
+                                        information about the tasks which are completed and which are not completed.</p>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://todos-list-woad.vercel.app/" target="_blank" rel="noopener"
+                                        alt="link" class="btn btn1">Website</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="contact">
+                <div class="section-header">
+                    <h1 class="">Contact Me</h1>
+                    <p>Feel free to contact me anytime.</p>
+                </div>
+                <div class="contact-container">
+                    <div class="image-box">
+                        <img draggable="false" src="./assets/contact-img.png" alt="contact" class="contact-img">
+                    </div>
+                    <form id="contact-form" method="POST" action="mailto:rohitbedwal9@gmail.com" enctype="text/plain">
+                        <div class="form-group">
+                            <div class="field">
+                                <input type="text" name="name" placeholder="Name" required>
+                                <i class='fas fa-user'></i>
+                            </div>
+                            <div class="field">
+                                <input type="text" name="email" placeholder="Email" required>
+                                <i class='fas fa-envelope'></i>
+                            </div>
+                            <div class="message">
+                                <textarea placeholder="Message" name="message" required></textarea>
+                                <i class="fas fa-comment-dots"></i>
+                            </div>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit" name="submit" class="btn btn1">
+                                Submit <i class="fa fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="box1">
+                <h3>Rohit's Portfolio</h3>
+                <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br /> <br />
+                    Keep Rising 🚀. Connect with me over live chat!</p>
+            </div>
+            <style>
+
+            </style>
+            <div class="box2">
+                <h3>Quick links</h3>
+                <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+                <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+                <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+                <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+                <a href="#projects"><i class="fas fa-chevron-circle-right"></i> projects</a>
+                <a href="#contact"><i class="fas fa-chevron-circle-right"></i> contact</a>
+            </div>
+
+            <div class="box3" >
+                <h3>Contact info</h3>
+                <p> <i class="fas fa-phone"></i><span>+91 XXX-XXX-XXXX</span></p>
+                <p> <i class="fas fa-envelope"></i><span> rohitbedwal9@gmail.com</span></p>
+                <p> <i class="fas fa-map-marked-alt"></i><span>Rishikesh, India-249204</span></p>
+                <p class="share">
+                    <a href="https://www.linkedin.com/in/rohitbedwal9" rel="noopener" alt="linkedin"
+                        class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+                    <a href="https://github.com/rohitbedwal9" rel="noopener" alt="github" class="fab fa-github"
+                        aria-label="GitHub" target="_blank"></a>
+                    <a href="mailto:rohitbedwal9@gmail.com" rel="noopener" alt="mail" class="fas fa-envelope"
+                        aria-label="Mail" target="_blank"></a>
+                    <a href="https://twitter.com/rohitbedwal9" rel="noopener" alt="twitter" class="fab fa-twitter"
+                        aria-label="Twitter" target="_blank"></a>
+                </p>
+            </div>
+        </footer>
+        <p class="copy">© 2021 Rohit Singh Bedwal. All rights reserved.</p>
+    </main>
+</body>
+
+</html>
