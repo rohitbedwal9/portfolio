@@ -1,6 +1,8 @@
 <h1>Rohit's Portfolio</h1>
 
-Welcome to my portfolio! This repository showcases my projects and works, providing an overview of my skills and experience. Feel free to explore the projects, and if you have any questions or would like to collaborate, please don't hesitate to contact me.
+Welcome to my portfolio! This repository showcases my projects and works, providing an overview of my skills
+and experience. Feel free to explore the projects, and if you have any questions or would like to collaborate,
+please don't hesitate to contact me.
 
 <h3>Table of Contents</h3>
 
@@ -16,10 +18,10 @@ Welcome to my portfolio! This repository showcases my projects and works, provid
 
 <h3>About Me</h3>
 
-<pre>I'm Rohit, I'm a Frontend Web Developer. I have completed my Bachelor's in Computer Application from Doon Group of
-Institutions, Rishikesh. Currently, I am pursuing my Masters in Computer Applications from Graphic Era Hill University
-, Dehradun. I am very passionate about improving my coding skills & developing websites. I build WebApps and Websites
-using MERN Stack. Working for myself to improve my skills.</pre>
+<pre>I'm Rohit, I'm a Frontend Web Developer. I have completed my Bachelor's in Computer Application from Doon 
+Group of Institutions, Rishikesh. Currently, I am pursuing my Masters in Computer Applications from Graphic Era
+Hill University, Dehradun. I am very passionate about improving my coding skills & developing websites. I build
+WebApps and Websites using MERN Stack. Working for myself to improve my skills.</pre>
 
 <h3>Education</h3>
 <pre>Masters in Computer Application
@@ -52,15 +54,15 @@ Doon Group of Institutions, Rishikesh
 <h3>Projects</h3>
 
 <h6>Project 1: Paryatak</h6>
-<pre>Description: Paryatak is a travel website which provides information about the places to visit in Uttarakhand. It also
-provides information about the hotels and restaurants in Uttarakhand.
+<pre>Description: Paryatak is a travel website which provides information about the places to visit in Uttarakhand.
+It also provides information about the hotels and restaurants in Uttarakhand.
 </pre>
 link: https://paryatak.vercel.app
 
 
 <h6>Project 2: Portfolio</h6>
-<pre>Description: Portfolio is a personal website which provides information about the person. It also provides information
-about the skills and projects of the person.
+<pre>Description: Portfolio is a personal website which provides information about the person. It also provides 
+information about the skills and projects of the person.
 </pre>
 link: https://rohitbedwal9.github.io/portfolio
 
