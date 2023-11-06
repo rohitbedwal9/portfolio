@@ -54,34 +54,35 @@ Doon Group of Institutions, Rishikesh
 <h3>Projects</h3>
 
 <h6>Project 1: Paryatak</h6>
-<pre>Description: Paryatak is a travel website which provides information about the places to visit in Uttarakhand.
-It also provides information about the hotels and restaurants in Uttarakhand.
+<pre>Description: Paryatak is a travel website which provides information about the places to visit in
+Uttarakhand. It also provides information about the hotels and restaurants in Uttarakhand.
 </pre>
 link: https://paryatak.vercel.app
 
 
 <h6>Project 2: Portfolio</h6>
-<pre>Description: Portfolio is a personal website which provides information about the person. It also provides 
-information about the skills and projects of the person.
+<pre>Description: Portfolio is a personal website which provides information about the person. It also 
+provides information about the skills and projects of the person.
 </pre>
 link: https://rohitbedwal9.github.io/portfolio
 
 
 <h6>Project 3: Todo List App</h6>
-<pre>Description: Todo App is a web application used to manage tasks. It also provides information about the
-tasks which are completed and which are not completed.
+<pre>Description: Todo App is a web application used to manage tasks. It also provides information about
+the tasks which are completed and which are not completed.
 </pre>
 link: https://todos-list-woad.vercel.app
 
 
 <h3>Contact</h3>
-<pre>I am always open to new opportunities and collaborations. You can reach out to me through the following channels:
+<pre>I am always open to new opportunities and collaborations. You can reach out to me through the
+following channels:
 
 Email: rohitbedwal9@gmail.com
 LinkedIn: https://www.linkedin.com/in/rohitbedwal9
 GitHub: https://github.com/rohitbedwal9
-Feel free to reach out to me if you have any questions or job opportunities, or if you'd like to work together on a 
-project.
+Feel free to reach out to me if you have any questions or job opportunities, or if you'd like to work
+together on a project.
 </pre>
 Thank you for visiting my portfolio!
 
