@@ -19,9 +19,9 @@ please don't hesitate to contact me.
 <h3>About Me</h3>
 
 <pre>I'm Rohit, I'm a Frontend Web Developer. I have completed my Bachelor's in Computer Application from Doon 
-Group of Institutions, Rishikesh. Currently, I am pursuing my Masters in Computer Applications from Graphic
-Era Hill University, Dehradun. I am very passionate about improving my coding skills & developing websites.
-I build WebApps and Websites using MERN Stack. Working for myself to improve my skills.</pre>
+Group of Institutions, Rishikesh. Currently, I am pursuing my Masters in Computer Applications from 
+Graphic Era Hill University, Dehradun. I am very passionate about improving my coding skills & developing
+websites.I build WebApps and Websites using MERN Stack. Working for myself to improve my skills.</pre>
 
 <h3>Education</h3>
 <pre>Masters in Computer Application
