@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link id="favicon" rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
     <title>Porfolio</title>
     <link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="mediaqueries.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
-
 <body>
     <main class="main">
-        <nav id="desktop-nav">
+        <nav id="desktop-nav" data-aos="fade-in">
             <div class="logo">Rohit Singh</div>
             <ul class="nav-items">
                 <li><a href="#about" class="">About</a></li>
@@ -26,7 +25,7 @@
                 <li><a href="#contact" class="">Contact</a></li>
             </ul>
         </nav>
-        <nav id="hamburger-nav">
+        <nav id="hamburger-nav" data-aos="fade-in">
             <div class="logo">Rohit Singh</div>
             <div class="hamburger-menu">
                 <div class="hamburger-icon" onclick="toggleMenu()">
@@ -43,8 +42,8 @@
                 </ul>
             </div>
         </nav>
-        <div class="sections">
-            <section class="profile" id="#">
+        <div class="sections" >
+            <section class="profile" id="#" data-aos="fade-in">
                 <div class="profile-info">
                     <h1 class="intro">Hey There</h1>
                     <h1 class="name">I'm Rohit <span class="sub-text">Bedwal</span></h1>
@@ -57,16 +56,16 @@
                 </div>
                 <div class="pic-container"><img src="./assets/prof-emogi.png" alt="profile" class="profile-img"></div>
             </section>
-            <section class="section" id="about">
+            <section class="section" id="about" data-aos="fade-in">
                 <div class="section-header">
                     <p class="upper-text">Get to Know More</p>
                     <h1 class="">About Me</h1>
                 </div>
-                <div class="sub-container">
-                    <div class="pic-container">
+                <div class="sub-container" >
+                    <div class="pic-container" data-aos="fade-in" >
                         <img src="./assets/prof-org.png" alt="profile" class="profile-img2">
                     </div>
-                    <div class="content-container">
+                    <div class="content-container" data-aos="fade-in">
                         <h2>I'm Rohit </h2>
                         <h4>Frontend Web Developer</h4>
                         <p>I have completed my Bachelors in Computer Application from Doon Group of Institutions,
@@ -82,7 +81,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section" id="education">
+            <section class="section" id="education" data-aos="fade-in">
                 <div class="section-header">
                     <h1 class="">My Education</h1>
                     <p class="">Education Is Not The Learning Of Facts, But The Training Of The Mind To Think.</p>
@@ -106,7 +105,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section" id="skills">
+            <section class="section" id="skills" data-aos="fade-in">
                 <div class="section-header">
                     <h1 class="">My Skills</h1>
                     <p>Skills are the most important thing to have in this competitive world.</p>
@@ -144,7 +143,7 @@
                             class="skill-img">Python</div>
                 </div>
             </section>
-            <section class="section" id="projects">
+            <section class="section" id="projects" data-aos="fade-in">
                 <div class="section-header">
                     <h1 class="">My Projects</h1>
                     <p>Projects are the best way to learn and implement your skills.</p>
@@ -205,7 +204,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section" id="contact">
+            <section class="section" id="contact" data-aos="fade-in">
                 <div class="section-header">
                     <h1 class="">Contact Me</h1>
                     <p>Feel free to contact me anytime.</p>
@@ -238,7 +237,7 @@
             </section>
         </div>
         <footer>
-            <div class="box1">
+            <div class="box1" data-aos="fade-in">
                 <h3>Rohit's Portfolio</h3>
                 <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br /> <br />
                     Keep Rising 🚀. Connect with me over live chat!</p>
@@ -246,7 +245,7 @@
             <style>
 
             </style>
-            <div class="box2">
+            <div class="box2" data-aos="fade-in">
                 <h3>Quick links</h3>
                 <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
                 <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
@@ -256,7 +255,7 @@
                 <a href="#contact"><i class="fas fa-chevron-circle-right"></i> contact</a>
             </div>
 
-            <div class="box3" >
+            <div class="box3" data-aos="fade-in">
                 <h3>Contact info</h3>
                 <p> <i class="fas fa-phone"></i><span>+91 XXX-XXX-XXXX</span></p>
                 <p> <i class="fas fa-envelope"></i><span> rohitbedwal9@gmail.com</span></p>
@@ -273,8 +272,12 @@
                 </p>
             </div>
         </footer>
-        <p class="copy">© 2021 Rohit Singh Bedwal. All rights reserved.</p>
+        <p class="copy" data-aos="fade-in">© 2021 Rohit Singh Bedwal. All rights reserved.</p>
     </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
